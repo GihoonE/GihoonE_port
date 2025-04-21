@@ -54,6 +54,15 @@ header nav ul li button{
     font-size: 1.2rem;
 }
 
+header .container .lang-switch button{
+    color: white;
+    border: 3px solid white;
+    padding: 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 header.active{
     background-colr: rgba(0,0,0);
     animation: fadeIn 0.5s ease-in-out;
@@ -150,6 +159,7 @@ main h2 span::after{
 section{
   font-family: "Poppins", Sans-Serif;
   padding: 5rem 0;
+  background-color: white;
 }
 section:nth-child(2n){
   background-color: #f8f8f8;
