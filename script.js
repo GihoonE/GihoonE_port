@@ -1,6 +1,6 @@
 (function(){
     const spanE1 = document.querySelector("main h2 span");
-    const arr = ['Back-End Developer','Data-Engineer','Full-Stack Developer'];
+    const arr = ['Back-End Developer','Data-Engineer','AP Instructor'];
     let index = 0;
     let cur = arr[index].split("");
     function writeTxt(){
