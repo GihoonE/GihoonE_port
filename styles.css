@@ -160,6 +160,7 @@ section{
   font-family: "Poppins", Sans-Serif;
   padding: 5rem 0;
   background-color: white;
+  
 }
 section:nth-child(2n){
   background-color: #f8f8f8;
