@@ -255,6 +255,7 @@ section .do-me .do-inner:hover i{
     color: white;
 }
 .bg{
+    /*Intsert background image!*/
     background: url('#') center center;
     background-size: cover;
     background-attachment: fixed;
