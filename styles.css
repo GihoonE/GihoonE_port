@@ -226,8 +226,9 @@ section .do-me .do-inner{
     cursor: pointer;
     height: 400px;
     overflow: auto;
+    margin-top: 10px;
 }
-section .do-me .do-inner:last-child{
+section .do-me .do-inner:nth-child(3n){
     margin-right:0;
 }
 section .do-me .do-inner .icon i{
