@@ -32,14 +32,14 @@
             <div class="container">
                 <h4>Welcome</h4>
                 <h2>I'M A <span></span></h2>
-                <p>A second-year student majoring in Applied Mathematics and 
+                <p id="main_desc">A second-year student majoring in Applied Mathematics and 
                 Computational Science at Duke Kunshan University.
                 I have a unique approach to the world from my interdisciplinary education.
                 Simultaneously, I have a solid understanding of computer science and mathematics
                 from my prior professional experiences and activities.</p>
-                <button class="download">DOWNLOAD CV</button>
-                <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
+                <button class="download" id="download">DOWNLOAD CV</button>
             </div>
+                <button class="mouse"><i class="fa-solid fa-computer-mouse"></i></button>
         </main>
         <section id="about" class="about">
             <div class="container">
@@ -53,7 +53,7 @@
                     </div>
                     <div class="right">
                         <h3>Hello, <strong>I'm Gihun Lee</strong></h3>
-                        <p>A second-year student majoring in Applied Mathematics and 
+                        <p id="about_self">A second-year student majoring in Applied Mathematics and 
                         Computational Science at Duke Kunshan University.
                         I have a unique approach to the world from my interdisciplinary education.
                         Simultaneously, I have a solid understanding of computer science and mathematics
@@ -76,11 +76,71 @@
                 <div class="do-me">
                     <div class="do-inner">
                         <div class="icon">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Python</h3>
+                            <p id="skills_python">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Java</h3>
+                            <p id="skills_java">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-file-excel"></i>
+                        </div>
+                        <div class="content">
+                            <h3>VBA</h3>
+                            <p id="skills_VBA">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-database"></i>
+                        </div>
+                        <div class="content">
+                            <h3>MySQL</h3>
+                            <p id="skills_MySQL">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-database"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Database</h3>
+                            <p id="skills_Database">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
                             <i class="fa-brands fa-html5"></i>
                         </div>
                         <div class="content">
                             <h3>HTML5</h3>
-                            <p>Sample Paragraph Sample Paragraph 
+                            <p id="skills_HTML5">Sample Paragraph Sample Paragraph 
                                 Sample Paragraph Sample Paragraph 
                                 Sample Paragraph Sample Paragraph
                             </p>
@@ -92,7 +152,7 @@
                         </div>
                         <div class="content">
                             <h3>CSS3</h3>
-                            <p>Sample Paragraph Sample Paragraph 
+                            <p id="skills_CSS">Sample Paragraph Sample Paragraph 
                                 Sample Paragraph Sample Paragraph 
                                 Sample Paragraph Sample Paragraph
                             </p>
@@ -100,11 +160,35 @@
                     </div>
                     <div class="do-inner">
                         <div class="icon">
-                            <i class="fa-brands fa-bootstrap"></i>
+                            <i class="fa-brands fa-js"></i>
                         </div>
                         <div class="content">
-                            <h3>BootStrap v5.0</h3>
-                            <p>Sample Paragraph Sample Paragraph 
+                            <h3>Javascript</h3>
+                            <p id="skills_javascript">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-github"></i>
+                        </div>
+                        <div class="content">
+                            <h3>Git</h3>
+                            <p id="skills_Git">Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph 
+                                Sample Paragraph Sample Paragraph
+                            </p>
+                        </div>
+                    </div>
+                    <div class="do-inner">
+                        <div class="icon">
+                            <i class="fa-brands fa-robot"></i>
+                        </div>
+                        <div class="content">
+                            <h3>ScikitLearn</h3>
+                            <p id="skills_ScikitLearn">Sample Paragraph Sample Paragraph 
                                 Sample Paragraph Sample Paragraph 
                                 Sample Paragraph Sample Paragraph
                             </p>
@@ -167,7 +251,7 @@
                                 <i class="fa-solid fa-phone-volume"></i>
                             </div>
                             <div class="info-text">
-                                <h3>phone</h3>
+                                <h3 id="info_phone">phone</h3>
                                 <p>010-8752-2099</p>
                             </div>
                         </div>
@@ -176,7 +260,7 @@
                                 <i class="fa-solid fa-envelope-open-text"></i>
                             </div>
                             <div class="info-text">
-                                <h3>email</h3>
+                                <h3 id="info_email">email</h3>
                                 <p>gl167@duke.edu</p>
                                 <p>leegihun8752@gmail.com</p>
                             </div>
@@ -186,7 +270,7 @@
                                 <i class="fa-solid fa-location-crosshairs"></i>
                             </div>
                             <div class="info-text">
-                                <h3>address</h3>
+                                <h3 id="info_address">address</h3>
                                 <p>97-11, Ilhyeon-ro, Ilsanseo-gu, Goyang-si, Gyeonggi-do, Republic of Korea</p>
                             </div>
                         </div>
@@ -194,18 +278,18 @@
                     <div class="right">
                         <form action="#">
                             <div class="form-group">
-                                <label for="name">Name</label>
+                                <label for="name" id="contact_name">Name</label>
                                 <input type="text" id="name">
                             </div>
                             <div class="form-group">
-                                <label for="email">Email</label>
+                                <label for="email" id="contact_email">Email</label>
                                 <input type="text" id="email">
                             </div>  
                             <div class="form-group">
-                                <label for="msg">Message</label>
+                                <label for="msg" id="contact_message">Message</label>
                                 <textarea id="msg"></textarea>
                             </div>
-                            <button type="submit">Send</button>
+                            <button type="submit" id="contact_send">Send</button>
                         </form>
                     </div>
                 </div>
