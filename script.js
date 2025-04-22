@@ -1,5 +1,4 @@
 (function(){
-    toggleLanguage('en');
     const spanE1 = document.querySelector("main h2 span");
     const arr = ['Back-End Developer','Data-Engineer','AP Instructor'];
     let index = 0;
@@ -27,6 +26,10 @@
     }
     writeTxt();
 })();
+
+document.addEventListener('DOMContentLoaded',function(){
+    toggleLanguage('en');
+});
 
 const headerE1 = document.querySelector('header');
 window.addEventListener('scroll',function(){
@@ -86,7 +89,7 @@ const texts = {
         about_self: "Hi, I'm Gihun Lee, an educator and aspiring software developer with a passion for CS, DS, Engineering, and Math/Science education. With a background in teaching Physics, Mathematics, and Computer Science, I bring a wealth of knowledge and expertise to the table. I am interested in leveraging my skills to work in the software development industry, where I can apply my problem-solving abilities and creativity to build innovative solutions. As a lifelong learner, I am always seeking new challenges and opportunities to grow both personally and professionally. Let's connect and explore how we can collaborate to make a positive impact in the tech industry.",
         skills_python: "Proficient in Python, capable of solving algorithmic problems and building diverse projects.",
         skills_java: "Proficient in Java, with experience in algorithmic problem-solving and project development.",
-        skills_VBA: "Certified Computer Specialist in Spreadsheet & Database Level-1; highly proficient in MS Excel and database management, with extensive experience automating tasks using Visual Basic for Applications.",
+        skills_VBA: "Highly proficient in MS Excel and database management, with extensive experience automating tasks using Visual Basic for Applications.",
         skills_HTML5: "Solid understanding of HTML5 fundamentals, with a strong grasp of frontend logic and structure.",
         skills_CSS:"Comfortable with CSS, able to style web pages and understand the core principles of frontend design.",
         skills_javascript: "Skilled in JavaScript, understanding the logic and interactivity essential for frontend development.",
@@ -105,24 +108,24 @@ const texts = {
 };
 
 function toggleLanguage(lang) {
-    document.getElementsByid('main_desc').innerText = texts[lang].main_desc;
-    document.getElementsByid('download').innerText = texts[lang].download;
-    document.getElementsByid('about_self').innerText = texts[lang].about_self;
-    document.getElementsByid('skills_python').innerText = texts[lang].skills_python;   
-    document.getElementsByid('skills_java').innerText = texts[lang].skills_java;
-    document.getElementsByid('skills_VBA').innerText = texts[lang].skills_VBA;
-    document.getElementsByid('skills_HTML5').innerText = texts[lang].skills_HTML5;
-    document.getElementsByid('skills_CSS').innerText = texts[lang].skills_CSS;
-    document.getElementsByid('skills_javascript').innerText = texts[lang].skills_javascript;
-    document.getElementsByid('skills_MySQL').innerText = texts[lang].skills_MySQL;
-    document.getElementsByid('skills_Database').innerText = texts[lang].skills_Database;
-    document.getElementsByid('skills_Git').innerText = texts[lang].skills_Git;
-    document.getElementsByid('skills_ScikitLearn').innerText = texts[lang].skills_ScikitLearn;
-    document.getElementsByid('info_phone').innerText = texts[lang].info_phone;
-    document.getElementsByid('info_email').innerText = texts[lang].info_email;
-    document.getElementsByid('info_address').innerText = texts[lang].info_address;
-    document.getElementsByid('contact_name').innerText = texts[lang].contact_name;
-    document.getElementsByid('contact_email').innerText = texts[lang].contact_email;
-    document.getElementsByid('contact_message').innerText = texts[lang].contact_message;
-    document.getElementsByid('contact_send').innerText = texts[lang].contact_send;    
+    document.getElementById('main_desc').innerText = texts[lang].main_desc;
+    document.getElementById('download').innerText = texts[lang].download;
+    document.getElementById('about_self').innerText = texts[lang].about_self;
+    document.getElementById('skills_python').innerText = texts[lang].skills_python;   
+    document.getElementById('skills_java').innerText = texts[lang].skills_java;
+    document.getElementById('skills_VBA').innerText = texts[lang].skills_VBA;
+    document.getElementById('skills_HTML5').innerText = texts[lang].skills_HTML5;
+    document.getElementById('skills_CSS').innerText = texts[lang].skills_CSS;
+    document.getElementById('skills_javascript').innerText = texts[lang].skills_javascript;
+    document.getElementById('skills_MySQL').innerText = texts[lang].skills_MySQL;
+    document.getElementById('skills_Database').innerText = texts[lang].skills_Database;
+    document.getElementById('skills_Git').innerText = texts[lang].skills_Git;
+    document.getElementById('skills_ScikitLearn').innerText = texts[lang].skills_ScikitLearn;
+    document.getElementById('info_phone').innerText = texts[lang].info_phone;
+    document.getElementById('info_email').innerText = texts[lang].info_email;
+    document.getElementById('info_address').innerText = texts[lang].info_address;
+    document.getElementById('contact_name').innerText = texts[lang].contact_name;
+    document.getElementById('contact_email').innerText = texts[lang].contact_email;
+    document.getElementById('contact_message').innerText = texts[lang].contact_message;
+    document.getElementById('contact_send').innerText = texts[lang].contact_send;    
 }
