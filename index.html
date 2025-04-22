@@ -243,18 +243,19 @@
                         </div>
                     </div>
                     <div class="right">
-                        <form action="#">
+                        <form action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="dd801460-f8c4-4172-a9f7-e8ffea2715ad">
                             <div class="form-group">
                                 <label for="name" id="contact_name">Name</label>
-                                <input type="text" id="name">
+                                <input type="text" id="name" name="name" required>
                             </div>
                             <div class="form-group">
                                 <label for="email" id="contact_email">Email</label>
-                                <input type="text" id="email">
+                                <input type="text" id="email" name="email" required>
                             </div>  
                             <div class="form-group">
                                 <label for="msg" id="contact_message">Message</label>
-                                <textarea id="msg"></textarea>
+                                <textarea id="msg" name="message" required></textarea>
                             </div>
                             <button type="submit" id="contact_send">Send</button>
                         </form>
